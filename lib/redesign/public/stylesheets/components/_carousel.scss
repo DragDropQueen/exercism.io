@@ -1,0 +1,26 @@
+.iteration-label {
+  display: block;
+}
+
+.carousel-section {
+  padding: 15px 0 20px 16%;
+}
+
+.carousel-code-container {
+  display: inline-block;
+  border: solid 1px $border-grey;
+  border-radius: 4px;
+  background: $fill-grey;
+  margin-top: 1em;
+  padding-left: 10px;
+  width: 30em;
+  height: 25em;
+}
+
+.carousel-nitpick-container {
+  float: right;
+  width: 30em;
+  margin: 1em 16em 0 0;
+  border-left: solid $berry;
+}
+

@@ -42,7 +42,7 @@ p {
   margin: 0;
 }
 
-pre {
+.form-block {
   background: $white;
   display: inline-block;
   width: 440px;
@@ -97,6 +97,12 @@ pre {
   font-family: $sans-light;
   font-size: .875rem;
   font-weight: normal;
+}
+
+.iteration-label {
+  color: $type-grey;
+  font-family: $sans-regular;
+  font-size: 1em;
 }
 
 .counter {

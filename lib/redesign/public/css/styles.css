@@ -255,7 +255,7 @@ p {
   line-height: 1.4;
   margin: 0; }
 
-pre {
+.form-block {
   background: white;
   display: inline-block;
   width: 440px;
@@ -304,6 +304,11 @@ pre {
   font-family: "source_code_prolight", sans-serif;
   font-size: .875rem;
   font-weight: normal; }
+
+.iteration-label {
+  color: #b2b2b2;
+  font-family: "source_code_proregular", sans-serif;
+  font-size: 1em; }
 
 .counter {
   font-family: "source_code_proregular", sans-serif;
@@ -644,6 +649,28 @@ article:last-child {
     width: 75px;
     height: 75px;
     padding-top: 0px; }
+
+.iteration-label {
+  display: block; }
+
+.carousel-section {
+  padding: 15px 0 20px 16%; }
+
+.carousel-code-container {
+  display: inline-block;
+  border: solid 1px #d8d8d8;
+  border-radius: 4px;
+  background: #f2f2f2;
+  margin-top: 1em;
+  padding-left: 10px;
+  width: 30em;
+  height: 25em; }
+
+.carousel-nitpick-container {
+  float: right;
+  width: 30em;
+  margin: 1em 16em 0 0;
+  border-left: solid #d81d4e; }
 
 .full-nav {
   padding: 20px; }

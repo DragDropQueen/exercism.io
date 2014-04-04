@@ -1,1 +1,17 @@
-%p placeholder -- carousel goes here
+%article.carousel-section
+  .carousel-container
+    - slides.each do |slide|
+      %label.iteration-label= "ITERATION #{slide.iteration}"
+      .carousel-code-container<>
+        = preserve slide.code
+      %div.carousel-nitpick-container<>
+        %span.iteration-label= slide.iteration
+        %img.gravatar{:src => "/redesign" + slide.avatar}
+        %p.exercise-username= slide.username
+        %p.posted-at About
+        = slide.hours
+        hours ago
+        %p= slide.comment
+
+
+
