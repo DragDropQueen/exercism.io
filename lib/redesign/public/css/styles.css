@@ -413,6 +413,9 @@ p {
   right: 0em;
   z-index: 10; }
 
+.sidebar--closed .topnav {
+  left: 0; }
+
 .sidebar--closed .main-sidebar {
   width: 0; }
 
